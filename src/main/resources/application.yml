@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ragazza
+    username: postgres
+    password: postgres
+  #    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: password
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+      jdbc:
+        lob.non_contextual_creation: true
+
+  h2:
+    console.enabled: true
+
+logging:
+  level:
+    sql: trace
+    org:
+      hibernate:
+        SQL: debug
+        type:
+          descriptor:
+            sql: TRACE
