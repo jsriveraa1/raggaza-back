@@ -1,4 +1,3 @@
 runtime: java11
-version: 1
 instance_class: F2
-service: ragazza-back
+service: 'ragazza-back'
