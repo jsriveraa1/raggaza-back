@@ -11,7 +11,7 @@
     <groupId>com.co.ragazza.backend</groupId>
     <artifactId>ragazza</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>ragazza</name>
     <description>ragazza</description>
     <properties>
