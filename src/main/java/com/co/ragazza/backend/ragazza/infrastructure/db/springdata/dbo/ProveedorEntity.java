@@ -1,10 +1,10 @@
 package com.co.ragazza.backend.ragazza.infrastructure.db.springdata.dbo;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity

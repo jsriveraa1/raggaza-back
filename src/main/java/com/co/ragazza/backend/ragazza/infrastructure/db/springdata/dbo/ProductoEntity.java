@@ -1,8 +1,8 @@
 package com.co.ragazza.backend.ragazza.infrastructure.db.springdata.dbo;
 
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 

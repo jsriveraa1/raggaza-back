@@ -1,7 +1,5 @@
 package com.co.ragazza.backend.ragazza.infrastructure.rest.spring.dbo;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
