@@ -2,7 +2,6 @@ package com.co.ragazza.backend.ragazza.infrastructure.rest.spring.resources;
 
 import com.co.ragazza.backend.ragazza.application.service.AccesorioLogic;
 import com.co.ragazza.backend.ragazza.infrastructure.rest.spring.dbo.AccesorioDto;
-import com.co.ragazza.backend.ragazza.infrastructure.rest.spring.dbo.MaterialDto;
 import com.co.ragazza.backend.ragazza.infrastructure.rest.spring.mapper.AccesorioRestMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

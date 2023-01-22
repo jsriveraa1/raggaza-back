@@ -13,5 +13,6 @@ public class Material implements Serializable {
 
     private Long id;
     private String descripcion;
+    private Integer porcentajeGanancia;
 
 }

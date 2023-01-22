@@ -15,5 +15,6 @@ public class MaterialDto implements Serializable {
 
     private Long id;
     private String descripcion;
+    private Integer porcentajeGanancia;
 
 }

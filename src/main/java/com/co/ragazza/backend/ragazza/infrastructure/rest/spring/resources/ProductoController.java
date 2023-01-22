@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("producto")
+@CrossOrigin(value = "*", origins = "*")
 public class ProductoController {
 
     private final ProductoLogic productoLogic;

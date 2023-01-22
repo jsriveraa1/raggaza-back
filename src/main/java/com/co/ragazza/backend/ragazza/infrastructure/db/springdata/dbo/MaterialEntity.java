@@ -21,5 +21,6 @@ public class MaterialEntity implements Serializable {
     @Id
     private Long id;
     private String descripcion;
+    private Integer porcentajeGanancia;
 
 }
